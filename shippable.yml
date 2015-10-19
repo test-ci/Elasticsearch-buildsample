@@ -17,7 +17,7 @@ branches:
     - stage
     - prod
     
-archive: true
+#archive: true
 
 notifications:
  email: 

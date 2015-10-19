@@ -8,6 +8,10 @@ services:
 
 install: pip install --use-mirrors -r requirements.txt
 
+before_script:
+  - mkdir -p shippable/testresults
+  - mkdir -p shippable/codecoverage
+
 script:
  - python sample.py
 
@@ -17,7 +21,7 @@ branches:
     - stage
     - prod
     
-#archive: true
+archive: true
 
 notifications:
  email: 

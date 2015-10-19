@@ -20,4 +20,5 @@ branches:
 #archive: true
 
 notifications:
- email: false
+ email: 
+  test_ci2@yahoo.in

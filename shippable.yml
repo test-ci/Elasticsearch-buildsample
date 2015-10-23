@@ -23,6 +23,8 @@ branches:
     
 archive: true
 
+cache: true
+
 notifications:
  email: 
   test_ci2@yahoo.in
